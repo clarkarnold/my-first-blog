@@ -31,3 +31,12 @@ add urls.py to app folder and add info:
     import path from django.urls
     import views from .
 
+read more about urlpatterns:
+    https://docs.djangoproject.com/en/2.2/topics/http/urls/
+
+create views - functions that perform logic and call on templates
+    https://docs.djangoproject.com/en/2.2/topics/http/views/
+
+us query sets to pass data from views -> templates:
+    https://docs.djangoproject.com/en/2.2/ref/models/querysets/
+
