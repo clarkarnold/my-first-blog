@@ -1,0 +1,19 @@
+django-admin startproject 'nameofsite' .
+settings.py change timezone - wikipedia timezones 'America/Los_Angeles'
+
+add this line below STATIC_URL = 'static' line
+ -> STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+ Add host you're going to use to ALLOWED_HOSTS
+
+ run migration to create the database
+
+create app in main  directory
+python manage.py startapp "name of app"
+
+add app to site settings.py
+
+create models
+
+when models are ready make migrations and migrate
+
