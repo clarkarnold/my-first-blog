@@ -17,3 +17,17 @@ create models
 
 when models are ready make migrations and migrate
 
+register models in admin.py
+
+create superuser
+
+follow djangogirls git to setup repository:
+    https://tutorial.djangogirls.org/en/deploy/
+
+if you want to push to pythonanywhere continue the deploy stage
+
+update urls.py to include 'blog.urls' or whatever app url file
+add urls.py to app folder and add info:
+    import path from django.urls
+    import views from .
+
